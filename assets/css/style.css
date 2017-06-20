@@ -1,0 +1,43 @@
+.jumbotron {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: black;
+    background: url(../images/train4.jpg);
+    background-size: cover;
+    
+}
+
+body {
+
+background: black;
+background-size: cover;
+	
+}
+
+h1 {
+
+height: 130px;
+margin-top: 0px;
+margin-left: 0px;
+
+
+}
+
+.panel-heading {
+
+margin-top: 5px;	
+margin-bottom: 5px;
+}
+
+p {
+	font-style: bold;
+}
+
+.panel {
+	
+	margin-bottom: 10px;
+}

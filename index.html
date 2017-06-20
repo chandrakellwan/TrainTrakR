@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TrainTrakR</title>
+	<meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>TrainTrakR</h1>
+            <p><strong>Up-to-the-minute</strong></p>
+        </div>
+       
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Arrival Times</h3>
+                </div>
+                <div class="panel-body" id="currEmployee">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Train Name</th>
+                                <th>Destination</th>
+                                <th>Frequency(min)</th>
+                                <th>Next Arrival</th>
+                                <th>Minutes Away</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                    <button type="clear" class="btn btn-default" id="clearBtn">Clear</button>
+                </div>
+            </div>
+        </div>
+        <!-- display first panel -->
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Add Train</h3>
+                </div>
+                <div class="panel-body">
+                    <form id="topic-form">
+                        <label for="topic-input">Train Name</label>
+                        <input type="text" class="form-control" id="trainName-input">
+                        <label for="topic-input">Destination</label>
+                        <input type="text" class="form-control" id="destination-input">
+                        <label for="topic-input">First Train Time</label>
+                        <input type="text" class="form-control" id="firstTrain-input">
+                        <label for="topic-input">Frequency</label>
+                        <input type="text" class="form-control" id="frequency-input">
+                        <!-- Button triggers new movie to be added -->
+                        <button type="submit" class="btn btn-default" id="addEmployeeBtn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- display Second panel -->
+    </div>
+    <!-- close container -->
+   
+   <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+   
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <!-- JavaScript -->
+    <script src="assets/javascript/app.js"></script>
+    <!-- Moment.js -->
+    <script src="assets/javascript/moment.js"></script>
+</body>
+
+</html>
