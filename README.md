@@ -8,13 +8,13 @@ Users are able to also add trains to the schedule.
 
 •	When adding trains, administrators are able to submit the following:
   
-    oTrain Name
+    o Train Name
     
-    oDestination
+    o Destination
     
-    oFirst Train Time 
+    o First Train Time 
     
-    oFrequency -- in minutes
+    o Frequency -- in minutes
     
 •	The app then calculates when the next train will arrive, relative to the current time.
 
