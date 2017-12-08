@@ -6,7 +6,7 @@ Users from many different machines are be able to view the same train times.
 
 Users are able to also add trains to the schedule. 
 
-  •	When adding trains, administrators are able to submit the following:
+•	When adding trains, administrators are able to submit the following:
   
     o	Train Name
     
