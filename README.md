@@ -18,7 +18,7 @@ Users are able to also add trains to the schedule.
     
 •	The app then calculates when the next train will arrive, relative to the current time.
 
-Technologies utilized:
+•	Technologies utilized:
 
   - **Firebase**
   - **Moment.js**
