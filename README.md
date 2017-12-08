@@ -1,6 +1,6 @@
 # TrainTrakR
 
-This train scheduler application incorporates #Firebase to host arrival and departure data. The app retrieves and manipulates this information with #Moment.js to provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.
+This train scheduler application incorporates # Firebase# to host arrival and departure data. The app retrieves and manipulates this information with #Moment.js to provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.
 
 Users from many different machines are be able to view the same train times. 
 
